@@ -12,12 +12,12 @@ const EditTodoForm = ({ editTodo, task }) => {
       <input
         type="text"
         className="todo-input"
-        placeholder="Update Task"
+        placeholder="Update Activity"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
       <button type="submit" className="todo-btn">
-        Edit Task
+        Edit Activity
       </button>
     </form>
   );

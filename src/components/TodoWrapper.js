@@ -55,7 +55,7 @@ const TodoWrappper = () => {
   };
   return (
     <div className="TodoWrapper">
-      <h1>Get Things Done!</h1>
+      <h1>Record Your Activity !</h1>
       <TodoForm addTodo={addTodo} />
       {todos.map((todo) =>
         todo.isEditing ? (

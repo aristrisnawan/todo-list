@@ -12,12 +12,12 @@ const TodoForm = ({ addTodo }) => {
       <input
         type="text"
         className="todo-input"
-        placeholder="What is the task today?"
+        placeholder="What have you done today?"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
       <button type="submit" className="todo-btn">
-        Add Task
+        Add Activity
       </button>
     </form>
   );
